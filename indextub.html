@@ -3,101 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ELITE EDGE ACADEMY | Soccer & Hockey Training | Everett WA</title>
+    <title>ELITE EDGE ACADEMY | Everett WA</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&amp;family=Playfair+Display:wght@700&amp;display=swap');
-        
         .hero-bg {
-            background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.75)), 
+            background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), 
                         url('https://i.ibb.co/r2vy3Rcj/soccer-image.jpg') center/cover no-repeat;
-            background-attachment: fixed;
         }
     </style>
 </head>
 <body class="font-sans bg-zinc-950 text-white">
 
+    <!-- NAV -->
     <nav class="bg-black/80 backdrop-blur-md fixed w-full z-50 border-b border-white/10">
-        <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
             <div class="flex items-center gap-3">
                 <div class="w-10 h-10 bg-emerald-500 rounded-xl flex items-center justify-center text-2xl font-black">EE</div>
-                <div class="font-black text-2xl tracking-tighter">ELITE EDGE</div>
+                <span class="font-black text-2xl">ELITE EDGE</span>
             </div>
-            <a href="#join" class="bg-white text-black px-6 py-3 rounded-2xl font-semibold flex items-center gap-2 hover:bg-emerald-400 hover:text-white transition-all">
-                <i class="fas fa-arrow-right"></i> JOIN THE WAITLIST
-            </a>
+            <a href="#join" class="bg-white text-black px-6 py-3 rounded-2xl font-semibold">JOIN THE WAITLIST</a>
         </div>
     </nav>
 
+    <!-- HERO -->
     <section class="hero-bg min-h-screen flex items-center pt-20">
-        <div class="max-w-7xl mx-auto px-6 pt-24 pb-20">
-            <div class="max-w-3xl">
-                <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-6 py-2.5 rounded-3xl text-sm mb-6 border border-white/20">
-                    <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
-                    LIMITED SPOTS • FALL 2026
-                </div>
-                
-                <h1 class="text-6xl md:text-7xl font-black tracking-tighter leading-none mb-6">
-                    ELITE LEVEL FULL-TIME<br>STUDENT ATHLETE ACADEMY<br>FOR AGES 10-15
-                </h1>
-                
-                <p class="text-2xl text-zinc-200 mb-10">
-                    5 days of school + <span class="text-emerald-400 font-semibold">4 days per week of elite sport-specific training</span><br>
-                    in Everett for Everett &amp; surrounding areas.
-                </p>
-                
-                <a href="#join" class="bg-emerald-500 hover:bg-emerald-400 transition-all text-black font-bold text-xl px-12 py-6 rounded-3xl inline-flex items-center gap-3">
-                    <i class="fas fa-bolt"></i> JOIN THE WAITLIST NOW
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section id="programs" class="py-24 bg-zinc-950">
         <div class="max-w-7xl mx-auto px-6">
-            <div class="text-center mb-16">
-                <span class="text-emerald-400 font-semibold tracking-widest">FULL-TIME STUDENT ATHLETE ACADEMY</span>
-                <h2 class="text-5xl font-bold tracking-tighter mt-3">4 Training Days Per Week</h2>
-            </div>
-            
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-gradient-to-br from-emerald-600 to-green-700 rounded-3xl p-10 text-white">
-                    <div class="text-8xl mb-6 opacity-20">⚽</div>
-                    <h3 class="text-4xl font-black mb-6">ELITE SOCCER ACADEMY</h3>
-                    <a href="#join" class="block w-full bg-white text-black py-5 text-center rounded-2xl font-semibold">JOIN THE WAITLIST →</a>
-                </div>
-                
-                <div class="bg-gradient-to-br from-blue-600 to-sky-700 rounded-3xl p-10 text-white">
-                    <div class="text-8xl mb-6 opacity-20">🏒</div>
-                    <h3 class="text-4xl font-black mb-6">ELITE HOCKEY ACADEMY</h3>
-                    <a href="#join" class="block w-full bg-white text-black py-5 text-center rounded-2xl font-semibold">JOIN THE WAITLIST →</a>
-                </div>
-            </div>
+            <h1 class="text-6xl md:text-7xl font-black tracking-tighter leading-none mb-6">
+                ELITE LEVEL FULL-TIME<br>STUDENT ATHLETE ACADEMY<br>FOR AGES 10-15
+            </h1>
+            <p class="text-2xl text-zinc-200 mb-10">
+                5 days of school + 4 days per week of elite sport-specific training<br>
+                in Everett for Everett & surrounding areas.
+            </p>
+            <a href="#join" class="bg-emerald-500 text-black font-bold text-xl px-10 py-6 rounded-3xl inline-block">
+                JOIN THE WAITLIST NOW
+            </a>
         </div>
     </section>
 
-    <!-- WEB3FORMS -->
-    <section id="join" class="py-24 bg-gradient-to-b from-zinc-950 to-black">
+    <!-- FORM SECTION -->
+    <section id="join" class="py-24 bg-zinc-900">
         <div class="max-w-2xl mx-auto px-6">
-            <div class="bg-zinc-900 border border-emerald-500/20 rounded-3xl p-12 text-center">
-                <h2 class="text-5xl font-black tracking-tighter mb-4">Join the Waitlist</h2>
+            <div class="bg-zinc-800 rounded-3xl p-12 text-center">
+                <h2 class="text-5xl font-black mb-4">Join the Waitlist</h2>
                 <p class="text-zinc-400 mb-10">Limited spots available</p>
-                
-                <form action="https://api.web3forms.com/submit" method="POST">
-                    <input type="hidden" name="access_key" value="PASTE_YOUR_KEY_HERE">
-                    <input type="hidden" name="subject" value="New Waitlist Submission">
-                    
-                    <div class="space-y-6 max-w-md mx-auto">
-                        <input type="text" name="first-name" placeholder="First Name" required class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-6 py-5">
-                        <input type="text" name="last-name" placeholder="Last Name" required class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-6 py-5">
-                        <input type="email" name="email" placeholder="Parent Email" required class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-6 py-5">
-                        <input type="tel" name="phone" placeholder="Phone Number" required class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-6 py-5">
-                        
-                        <button type="submit" class="w-full bg-emerald-500 hover:bg-emerald-400 text-black font-bold py-6 rounded-3xl text-xl">
-                            JOIN THE WAITLIST
-                        </button>
-                    </div>
+
+                <form name="waitlist" method="POST" data-netlify="true" class="space-y-6">
+                    <input type="hidden" name="form-name" value="waitlist">
+
+                    <input type="text" name="first-name" placeholder="First Name" required 
+                           class="w-full px-6 py-5 bg-zinc-900 border border-zinc-700 rounded-2xl focus:border-emerald-400 outline-none">
+                    <input type="text" name="last-name" placeholder="Last Name" required 
+                           class="w-full px-6 py-5 bg-zinc-900 border border-zinc-700 rounded-2xl focus:border-emerald-400 outline-none">
+                    <input type="email" name="email" placeholder="Parent Email Address" required 
+                           class="w-full px-6 py-5 bg-zinc-900 border border-zinc-700 rounded-2xl focus:border-emerald-400 outline-none">
+                    <input type="tel" name="phone" placeholder="Phone Number" required 
+                           class="w-full px-6 py-5 bg-zinc-900 border border-zinc-700 rounded-2xl focus:border-emerald-400 outline-none">
+
+                    <button type="submit" 
+                            class="w-full bg-emerald-500 hover:bg-emerald-400 text-black font-bold py-6 rounded-3xl text-xl">
+                        JOIN THE WAITLIST
+                    </button>
                 </form>
             </div>
         </div>
@@ -105,7 +72,9 @@
 
     <script>
         document.querySelector('form').addEventListener('submit', function() {
-            setTimeout(() => alert("✅ Thank you! You're on the waitlist."), 800);
+            setTimeout(() => {
+                alert("✅ Thank you! You've been added to the waitlist. We will contact you soon.");
+            }, 600);
         });
     </script>
 </body>
